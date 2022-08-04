@@ -1,0 +1,93 @@
+:root {
+    --red: #8E2424;
+    --branco: #FFFFFF;
+    --texto: #667085;
+    --azul: #101828;
+    --branco-rodape: #F9FAFB;
+    --cinza-rodape: #98A2B3;
+}
+
+@media (max-width: 440px) {
+    .navigacao {
+        padding: 1rem 0;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .links {
+        padding: 0.8rem 0;
+        background-color: var(--red);
+        width: 100%;
+        text-align: center;
+    }
+    
+    .links a {
+        margin: 0;
+        padding: 0 0.5rem;
+        color: var(--branco);
+    }
+
+    .cadastrar {
+        background-color: transparent;
+        color: var(--texto);
+    }
+
+    .cabecalho, .vagas {
+        margin: 3rem auto;
+    }
+
+    .cabecalho__principal {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    .cabecalho__texto {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .metricas__container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
+        margin: 2rem;
+    }
+
+    .metricas__numero {
+        font-size: 3rem;
+    }
+
+    .vagas__anuncio, .vagas__p {
+        padding: 0 1rem;
+    }
+
+    .imagem__principal {
+        width: 100%;
+        padding: 1rem 0;
+        margin-bottom: 1rem;
+    }
+
+    .anuncio__vagas {
+        width: 94%;
+        gap: 1rem;
+    }
+
+    .cartao {
+        width: 93%;
+        padding: 0.8rem;
+    }
+
+    .anuncio__titulo {
+        align-self: center;
+    }
+
+    .colaboradores {
+        margin: 2rem auto;
+        padding: 1rem;
+        width: 90%;
+    }
+
+    .colaboradores__depoimento {
+        font-size: 2rem;
+    }
+}
